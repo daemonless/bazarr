@@ -4,4 +4,4 @@
 export HOME=/config
 
 cd /app
-exec /usr/local/bin/s6-setuidgid bsd python3.11 bazarr.py --config /config
+exec /usr/local/bin/s6-setuidgid bsd python3.11 bazarr.py --no-update --config /config
