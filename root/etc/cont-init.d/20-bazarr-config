@@ -6,6 +6,10 @@ PGID=${PGID:-1000}
 
 echo "[bazarr] Setting up bazarr user with PUID=$PUID PGID=$PGID"
 
+# Pre-create config structure so bazarr doesn't crash on first start
+mkdir -p /config/config
+touch /config/config/releases.txt
+
 # Ensure config directory has correct ownership
 chown -R bsd:bsd /config
 

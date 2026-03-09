@@ -3,7 +3,6 @@ cit:
   port: 6767
   health: /ping
   ready: "waiting for requests"
-  wait: 300
 
 build:
   variants:
