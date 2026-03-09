@@ -1,0 +1,7 @@
+#!/bin/sh
+# Bazarr s6 service (pkg version)
+
+export HOME=/config
+
+cd /usr/local/share/bazarr/bin
+exec /usr/local/bin/s6-setuidgid bsd python3.11 bazarr.py --config /config

@@ -1,0 +1,17 @@
+cit:
+  mode: screenshot
+  port: 6767
+  health: /ping
+  ready: "waiting for requests"
+
+build:
+  variants:
+    - tag: latest
+      containerfile: Containerfile
+      default: true
+    - tag: pkg
+      containerfile: Containerfile.pkg
+    - tag: pkg-latest
+      containerfile: Containerfile.pkg
+      args:
+        BASE_VERSION: "15-latest"

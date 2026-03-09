@@ -1,0 +1,46 @@
+name: bazarr
+
+x-daemonless:
+  title: "Bazarr"
+  icon: ":material-subtitle:"
+  category: "Media Management"
+  description: "Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you."
+  upstream_url: "https://github.com/morpheus65535/bazarr"
+  web_url: "https://www.bazarr.media/"
+  freshports_url: "https://www.freshports.org/net-p2p/bazarr/"
+  user: "bsd"
+  
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+    volumes:
+      /config: "Configuration directory"
+      /movies:
+        desc: "Movie library (should match Radarr)"
+        optional: true
+      /tv:
+        desc: "TV library (should match Sonarr)"
+        optional: true
+    ports:
+      6767: "Web UI"
+
+services:
+  bazarr:
+    image: ghcr.io/daemonless/bazarr:latest
+    container_name: bazarr
+    restart: unless-stopped
+    
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/bazarr:/config
+      - /path/to/movies:/movies
+      - /path/to/tv:/tv
+
+    ports:
+      - 6767:6767

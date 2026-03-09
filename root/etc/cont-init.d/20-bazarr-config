@@ -1,0 +1,12 @@
+#!/bin/sh
+# Set up bazarr config directory
+
+PUID=${PUID:-1000}
+PGID=${PGID:-1000}
+
+echo "[bazarr] Setting up bazarr user with PUID=$PUID PGID=$PGID"
+
+# Ensure config directory has correct ownership
+chown -R bsd:bsd /config
+
+echo "[bazarr] Configuration complete"
