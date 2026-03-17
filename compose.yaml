@@ -2,7 +2,7 @@ name: bazarr
 
 x-daemonless:
   title: "Bazarr"
-  icon: ":material-subtitle:"
+  icon: ":material-subtitles:"
   category: "Media Management"
   description: "Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you."
   upstream_url: "https://github.com/morpheus65535/bazarr"
