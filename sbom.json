@@ -1,12 +1,12 @@
 {
   "image": "bazarr",
-  "generated": "2026-03-09T22:02:48Z",
+  "generated": "2026-03-17T22:09:26Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "v1.5.6",
       "source": "upstream",
-      "generated": "2026-03-09T22:02:19Z",
+      "generated": "2026-03-17T22:07:59Z",
       "packages": {
         "freebsd": [
           {
@@ -1214,7 +1214,7 @@
       "arch": "amd64",
       "app_version": "1.5.4",
       "source": "pkg",
-      "generated": "2026-03-09T22:02:24Z",
+      "generated": "2026-03-17T22:08:37Z",
       "packages": {
         "freebsd": [
           {
@@ -1379,7 +1379,7 @@
           },
           {
             "name": "execline",
-            "version": "2.9.7.0"
+            "version": "2.9.8.1"
           },
           {
             "name": "expat",
@@ -1479,7 +1479,7 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.12,1"
+            "version": "1.8.13,1"
           },
           {
             "name": "libXScrnSaver",
@@ -1599,7 +1599,7 @@
           },
           {
             "name": "libplacebo",
-            "version": "7.360.0"
+            "version": "7.360.1"
           },
           {
             "name": "libraqm",
@@ -1715,7 +1715,7 @@
           },
           {
             "name": "openjph",
-            "version": "0.26.0"
+            "version": "0.26.3"
           },
           {
             "name": "opus",
@@ -1795,11 +1795,11 @@
           },
           {
             "name": "s6",
-            "version": "2.13.2.0"
+            "version": "2.14.0.1"
           },
           {
             "name": "s6-rc",
-            "version": "0.5.6.0"
+            "version": "0.6.0.0"
           },
           {
             "name": "shaderc",
@@ -1811,7 +1811,7 @@
           },
           {
             "name": "skalibs",
-            "version": "2.14.4.0"
+            "version": "2.14.5.1"
           },
           {
             "name": "sqlite3",
@@ -2422,7 +2422,7 @@
       "arch": "amd64",
       "app_version": "1.5.2_3",
       "source": "pkg",
-      "generated": "2026-03-09T22:02:36Z",
+      "generated": "2026-03-17T22:09:12Z",
       "packages": {
         "freebsd": [
           {
