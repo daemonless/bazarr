@@ -17,7 +17,7 @@ ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
 
 # --- Metadata (Injected by Generator) ---
 LABEL org.opencontainers.image.title="Bazarr" \
-      org.opencontainers.image.description="Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you." \
+      org.opencontainers.image.description="Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you." \
       org.opencontainers.image.source="https://github.com/daemonless/bazarr" \
       org.opencontainers.image.url="https://www.bazarr.media/" \
       org.opencontainers.image.documentation="https://wiki.bazarr.media/" \

@@ -5,15 +5,29 @@ Source: dbuild templates
 
 # Bazarr
 
-Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
+[![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/bazarr/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/bazarr/actions)
+[![Last Commit](https://img.shields.io/github/last-commit/daemonless/bazarr?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/bazarr/commits)
+
+Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
 
 | | |
 |---|---|
 | **Port** | 6767 |
 | **Registry** | `ghcr.io/daemonless/bazarr` |
-| **Docs** | [daemonless.io/images/bazarr](https://daemonless.io/images/bazarr/) |
 | **Source** | [https://github.com/morpheus65535/bazarr](https://github.com/morpheus65535/bazarr) |
 | **Website** | [https://www.bazarr.media/](https://www.bazarr.media/) |
+
+## Version Tags
+
+| Tag | Description | Best For |
+| :--- | :--- | :--- |
+| `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
+| `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
+| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+
+## Prerequisites
+
+Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
 
@@ -29,12 +43,62 @@ services:
       - PGID=1000
       - TZ=UTC
     volumes:
-      - /path/to/containers/bazarr:/config
-      - /path/to/movies:/movies # optional
-      - /path/to/tv:/tv # optional
+      - "/path/to/containers/bazarr:/config"
+      - "/path/to/movies:/movies" # optional
+      - "/path/to/tv:/tv" # optional
     ports:
       - 6767:6767
     restart: unless-stopped
+```
+
+### AppJail Director
+
+**.env**:
+
+```
+DIRECTOR_PROJECT=bazarr
+PUID=1000
+PGID=1000
+TZ=UTC
+```
+
+**appjail-director.yml**:
+
+```yaml
+options:
+  - virtualnet: ':<random> default'
+  - nat:
+services:
+  bazarr:
+    name: bazarr
+    options:
+      - container: 'boot args:--pull'
+    oci:
+      user: root
+      environment:
+        - PUID: !ENV '${PUID}'
+        - PGID: !ENV '${PGID}'
+        - TZ: !ENV '${TZ}'
+    volumes:
+      - bazarr: /config
+      - movies: /movies
+      - tv: /tv
+volumes:
+  bazarr:
+    device: '/path/to/containers/bazarr'
+  movies:
+    device: 'movies'
+  tv:
+    device: 'tv'
+```
+
+**Makejail**:
+
+```
+ARG tag=latest
+
+OPTION overwrite=force
+OPTION from=ghcr.io/daemonless/bazarr:${tag}
 ```
 
 ### Podman CLI
@@ -42,15 +106,14 @@ services:
 ```bash
 podman run -d --name bazarr \
   -p 6767:6767 \
-  -e PUID=@PUID@ \
-  -e PGID=@PGID@ \
-  -e TZ=@TZ@ \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=UTC \
   -v /path/to/containers/bazarr:/config \
-  -v /path/to/movies:/movies \ # optional
-  -v /path/to/tv:/tv \ # optional
+  -v /path/to/movies:/movies # optional \
+  -v /path/to/tv:/tv # optional \
   ghcr.io/daemonless/bazarr:latest
 ```
-Access at: `http://localhost:6767`
 
 ### Ansible
 
@@ -62,9 +125,9 @@ Access at: `http://localhost:6767`
     state: started
     restart_policy: always
     env:
-      PUID: "@PUID@"
-      PGID: "@PGID@"
-      TZ: "@TZ@"
+      PUID: "1000"
+      PGID: "1000"
+      TZ: "UTC"
     ports:
       - "6767:6767"
     volumes:
@@ -73,7 +136,10 @@ Access at: `http://localhost:6767`
       - "/path/to/tv:/tv" # optional
 ```
 
-## Configuration
+Access at: `http://localhost:6767`
+
+## Parameters
+
 ### Environment Variables
 
 | Variable | Default | Description |
@@ -81,6 +147,7 @@ Access at: `http://localhost:6767`
 | `PUID` | `1000` | User ID for the application process |
 | `PGID` | `1000` | Group ID for the application process |
 | `TZ` | `UTC` | Timezone for the container |
+
 ### Volumes
 
 | Path | Description |
@@ -88,14 +155,17 @@ Access at: `http://localhost:6767`
 | `/config` | Configuration directory |
 | `/movies` | Movie library (should match Radarr) (Optional) |
 | `/tv` | TV library (should match Sonarr) (Optional) |
+
 ### Ports
 
 | Port | Protocol | Description |
 |------|----------|-------------|
 | `6767` | TCP | Web UI |
 
-## Notes
+**Architectures:** amd64
+**User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
+**Base:** FreeBSD 15.0
 
-- **Architectures:** amd64
-- **User:** `bsd` (UID/GID set via PUID/PGID)
-- **Base:** Built on `ghcr.io/daemonless/base` (FreeBSD)
+---
+
+Need help? Join our [Discord](https://discord.gg/Kb9tkhecZT) community.

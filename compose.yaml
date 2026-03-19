@@ -4,12 +4,13 @@ x-daemonless:
   title: "Bazarr"
   icon: ":material-subtitles:"
   category: "Media Management"
-  description: "Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you."
+  description: "Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you."
   upstream_url: "https://github.com/morpheus65535/bazarr"
   web_url: "https://www.bazarr.media/"
   freshports_url: "https://www.freshports.org/net-p2p/bazarr/"
   user: "bsd"
-  
+  appjail: true
+
   docs:
     env:
       PUID: "User ID for the application process"
