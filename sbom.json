@@ -1,12 +1,12 @@
 {
   "image": "bazarr",
-  "generated": "2026-03-17T22:09:26Z",
+  "generated": "2026-03-19T17:53:15Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "v1.5.6",
       "source": "upstream",
-      "generated": "2026-03-17T22:07:59Z",
+      "generated": "2026-03-19T17:51:49Z",
       "packages": {
         "freebsd": [
           {
@@ -1214,7 +1214,7 @@
       "arch": "amd64",
       "app_version": "1.5.4",
       "source": "pkg",
-      "generated": "2026-03-17T22:08:37Z",
+      "generated": "2026-03-19T17:52:52Z",
       "packages": {
         "freebsd": [
           {
@@ -1435,7 +1435,7 @@
           },
           {
             "name": "harfbuzz",
-            "version": "12.3.2"
+            "version": "13.0.1"
           },
           {
             "name": "highway",
@@ -1739,7 +1739,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.6.2"
+            "version": "2.6.2_1"
           },
           {
             "name": "png",
@@ -2422,7 +2422,7 @@
       "arch": "amd64",
       "app_version": "1.5.2_3",
       "source": "pkg",
-      "generated": "2026-03-17T22:09:12Z",
+      "generated": "2026-03-19T17:53:01Z",
       "packages": {
         "freebsd": [
           {
