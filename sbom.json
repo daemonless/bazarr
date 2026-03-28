@@ -1,12 +1,12 @@
 {
   "image": "bazarr",
-  "generated": "2026-03-19T17:53:15Z",
+  "generated": "2026-03-28T16:42:23Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "v1.5.6",
       "source": "upstream",
-      "generated": "2026-03-19T17:51:49Z",
+      "generated": "2026-03-28T16:34:37Z",
       "packages": {
         "freebsd": [
           {
@@ -139,7 +139,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.1"
+            "version": "3.13.2"
           },
           {
             "name": "bash",
@@ -156,6 +156,10 @@
           {
             "name": "brotli",
             "version": "1.2.0,1"
+          },
+          {
+            "name": "ca_root_nss",
+            "version": "3.117_2"
           },
           {
             "name": "cairo",
@@ -1198,7 +1202,7 @@
         "rust": []
       },
       "summary": {
-        "freebsd": 171,
+        "freebsd": 172,
         "dotnet": 0,
         "go": 0,
         "java": 0,
@@ -1207,14 +1211,14 @@
         "python": 122,
         "ruby": 0,
         "rust": 0,
-        "total": 294
+        "total": 295
       }
     },
     "pkg-latest": {
       "arch": "amd64",
       "app_version": "1.5.4",
       "source": "pkg",
-      "generated": "2026-03-19T17:52:52Z",
+      "generated": "2026-03-28T16:34:32Z",
       "packages": {
         "freebsd": [
           {
@@ -1347,7 +1351,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.1"
+            "version": "3.13.2"
           },
           {
             "name": "bash",
@@ -1370,6 +1374,10 @@
             "version": "1.2.0,1"
           },
           {
+            "name": "ca_root_nss",
+            "version": "3.117_2"
+          },
+          {
             "name": "cairo",
             "version": "1.18.2,3"
           },
@@ -1383,7 +1391,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.4"
+            "version": "2.7.5"
           },
           {
             "name": "ffmpeg",
@@ -1395,7 +1403,7 @@
           },
           {
             "name": "freetype2",
-            "version": "2.14.1"
+            "version": "2.14.3"
           },
           {
             "name": "fribidi",
@@ -1435,7 +1443,7 @@
           },
           {
             "name": "harfbuzz",
-            "version": "13.0.1"
+            "version": "13.1.1"
           },
           {
             "name": "highway",
@@ -1583,7 +1591,7 @@
           },
           {
             "name": "libimagequant",
-            "version": "4.4.1_2"
+            "version": "4.4.1_3"
           },
           {
             "name": "libjxl",
@@ -1607,7 +1615,7 @@
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.61.4"
+            "version": "2.62.0_1"
           },
           {
             "name": "libtasn1",
@@ -1851,7 +1859,7 @@
           },
           {
             "name": "svt-av1",
-            "version": "4.0.1"
+            "version": "4.1.0"
           },
           {
             "name": "tcl86",
@@ -2406,7 +2414,7 @@
         "rust": []
       },
       "summary": {
-        "freebsd": 171,
+        "freebsd": 172,
         "dotnet": 0,
         "go": 0,
         "java": 0,
@@ -2415,14 +2423,14 @@
         "python": 122,
         "ruby": 0,
         "rust": 0,
-        "total": 294
+        "total": 295
       }
     },
     "pkg": {
       "arch": "amd64",
       "app_version": "1.5.2_3",
       "source": "pkg",
-      "generated": "2026-03-19T17:53:01Z",
+      "generated": "2026-03-28T16:31:46Z",
       "packages": {
         "freebsd": [
           {
@@ -2555,7 +2563,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.1"
+            "version": "3.13.2"
           },
           {
             "name": "bash",
@@ -2576,6 +2584,10 @@
           {
             "name": "brotli",
             "version": "1.2.0,1"
+          },
+          {
+            "name": "ca_root_nss",
+            "version": "3.117_2"
           },
           {
             "name": "cairo",
@@ -3610,7 +3622,7 @@
         "rust": []
       },
       "summary": {
-        "freebsd": 171,
+        "freebsd": 172,
         "dotnet": 0,
         "go": 0,
         "java": 0,
@@ -3619,7 +3631,7 @@
         "python": 121,
         "ruby": 0,
         "rust": 0,
-        "total": 293
+        "total": 294
       }
     }
   }
