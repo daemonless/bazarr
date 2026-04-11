@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-09T17:57:25Z",
+  "generated": "2026-04-11T15:58:28Z",
   "image": "bazarr",
   "tags": {
     "latest": {
       "app_version": "v1.5.6",
       "arch": "amd64",
-      "generated": "2026-04-09T17:56:06Z",
+      "generated": "2026-04-11T15:56:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1213,7 +1213,7 @@
     "pkg": {
       "app_version": "1.5.6",
       "arch": "amd64",
-      "generated": "2026-04-09T17:56:07Z",
+      "generated": "2026-04-11T15:57:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2419,9 +2419,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "1.5.4_1",
+      "app_version": "1.5.6",
       "arch": "amd64",
-      "generated": "2026-04-09T17:55:12Z",
+      "generated": "2026-04-11T15:55:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2563,7 +2563,7 @@
           },
           {
             "name": "bazarr",
-            "version": "1.5.4_1"
+            "version": "1.5.6"
           },
           {
             "name": "binutils",
@@ -2655,7 +2655,7 @@
           },
           {
             "name": "hwdata",
-            "version": "0.405,1"
+            "version": "0.406,1"
           },
           {
             "name": "icu",
@@ -2879,7 +2879,7 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.2"
+            "version": "2.15.2_1"
           },
           {
             "name": "libxslt",
