@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-11T15:58:28Z",
+  "generated": "2026-04-22T23:30:19Z",
   "image": "bazarr",
   "tags": {
     "latest": {
       "app_version": "v1.5.6",
       "arch": "amd64",
-      "generated": "2026-04-11T15:56:44Z",
+      "generated": "2026-04-22T23:28:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -139,7 +139,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.2"
+            "version": "3.13.3"
           },
           {
             "name": "bash",
@@ -171,7 +171,7 @@
           },
           {
             "name": "execline",
-            "version": "2.9.7.0"
+            "version": "2.9.8.1"
           },
           {
             "name": "expat",
@@ -251,7 +251,7 @@
           },
           {
             "name": "jpeg-turbo",
-            "version": "3.1.3"
+            "version": "3.1.4.1"
           },
           {
             "name": "jq",
@@ -499,7 +499,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.8"
+            "version": "3.4.9"
           },
           {
             "name": "openjpeg",
@@ -535,7 +535,7 @@
           },
           {
             "name": "png",
-            "version": "1.6.55"
+            "version": "1.6.57"
           },
           {
             "name": "py311-boost-libs",
@@ -543,7 +543,7 @@
           },
           {
             "name": "py311-lxml",
-            "version": "6.0.2"
+            "version": "6.0.4"
           },
           {
             "name": "py311-numpy",
@@ -579,7 +579,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_1"
+            "version": "3.11.15_2"
           },
           {
             "name": "readline",
@@ -587,7 +587,7 @@
           },
           {
             "name": "s6",
-            "version": "2.13.2.0"
+            "version": "2.14.0.1"
           },
           {
             "name": "shaderc",
@@ -599,7 +599,7 @@
           },
           {
             "name": "skalibs",
-            "version": "2.14.4.0"
+            "version": "2.14.5.1"
           },
           {
             "name": "sqlite3",
@@ -647,7 +647,7 @@
           },
           {
             "name": "tiff",
-            "version": "4.7.1"
+            "version": "4.7.1_1"
           },
           {
             "name": "tk86",
@@ -970,7 +970,7 @@
           },
           {
             "name": "lxml",
-            "version": "6.0.2"
+            "version": "6.0.4"
           },
           {
             "name": "msgpack",
@@ -1213,7 +1213,7 @@
     "pkg": {
       "app_version": "1.5.6",
       "arch": "amd64",
-      "generated": "2026-04-11T15:57:19Z",
+      "generated": "2026-04-22T23:29:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1347,7 +1347,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.2"
+            "version": "3.13.3"
           },
           {
             "name": "bash",
@@ -1383,7 +1383,7 @@
           },
           {
             "name": "execline",
-            "version": "2.9.7.0"
+            "version": "2.9.8.1"
           },
           {
             "name": "expat",
@@ -1463,7 +1463,7 @@
           },
           {
             "name": "jpeg-turbo",
-            "version": "3.1.3"
+            "version": "3.1.4.1"
           },
           {
             "name": "jq",
@@ -1711,7 +1711,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.8"
+            "version": "3.4.9"
           },
           {
             "name": "openjpeg",
@@ -1747,7 +1747,7 @@
           },
           {
             "name": "png",
-            "version": "1.6.55"
+            "version": "1.6.57"
           },
           {
             "name": "py311-boost-libs",
@@ -1755,7 +1755,7 @@
           },
           {
             "name": "py311-lxml",
-            "version": "6.0.2"
+            "version": "6.0.4"
           },
           {
             "name": "py311-numpy",
@@ -1791,7 +1791,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_1"
+            "version": "3.11.15_2"
           },
           {
             "name": "readline",
@@ -1799,7 +1799,7 @@
           },
           {
             "name": "s6",
-            "version": "2.13.2.0"
+            "version": "2.14.0.1"
           },
           {
             "name": "shaderc",
@@ -1811,7 +1811,7 @@
           },
           {
             "name": "skalibs",
-            "version": "2.14.4.0"
+            "version": "2.14.5.1"
           },
           {
             "name": "sqlite3",
@@ -1859,7 +1859,7 @@
           },
           {
             "name": "tiff",
-            "version": "4.7.1"
+            "version": "4.7.1_1"
           },
           {
             "name": "tk86",
@@ -2178,7 +2178,7 @@
           },
           {
             "name": "lxml",
-            "version": "6.0.2"
+            "version": "6.0.4"
           },
           {
             "name": "msgpack",
@@ -2421,7 +2421,7 @@
     "pkg-latest": {
       "app_version": "1.5.6",
       "arch": "amd64",
-      "generated": "2026-04-11T15:55:26Z",
+      "generated": "2026-04-22T23:28:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2555,7 +2555,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.2"
+            "version": "3.13.3"
           },
           {
             "name": "bash",
@@ -2671,7 +2671,7 @@
           },
           {
             "name": "jpeg-turbo",
-            "version": "3.1.3"
+            "version": "3.1.4.1"
           },
           {
             "name": "jq",
@@ -2735,7 +2735,7 @@
           },
           {
             "name": "libavif",
-            "version": "1.4.0"
+            "version": "1.4.1"
           },
           {
             "name": "libbluray",
@@ -2895,7 +2895,7 @@
           },
           {
             "name": "mpc",
-            "version": "1.4.0"
+            "version": "1.4.1"
           },
           {
             "name": "mpdecimal",
@@ -2951,11 +2951,11 @@
           },
           {
             "name": "pkg",
-            "version": "2.6.2_1"
+            "version": "2.7.4"
           },
           {
             "name": "png",
-            "version": "1.6.56"
+            "version": "1.6.57"
           },
           {
             "name": "py311-boost-libs",
@@ -2963,7 +2963,7 @@
           },
           {
             "name": "py311-lxml",
-            "version": "6.0.2"
+            "version": "6.0.4"
           },
           {
             "name": "py311-numpy1",
@@ -3039,7 +3039,7 @@
           },
           {
             "name": "tiff",
-            "version": "4.7.1"
+            "version": "4.7.1_1"
           },
           {
             "name": "tk86",
@@ -3051,7 +3051,7 @@
           },
           {
             "name": "vmaf",
-            "version": "3.0.0"
+            "version": "3.1.0"
           },
           {
             "name": "vulkan-loader",
@@ -3358,7 +3358,7 @@
           },
           {
             "name": "lxml",
-            "version": "6.0.2"
+            "version": "6.0.4"
           },
           {
             "name": "msgpack",
