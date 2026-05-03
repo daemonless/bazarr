@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-22T23:30:19Z",
+  "generated": "2026-05-03T20:33:33Z",
   "image": "bazarr",
   "tags": {
     "latest": {
       "app_version": "v1.5.6",
       "arch": "amd64",
-      "generated": "2026-04-22T23:28:17Z",
+      "generated": "2026-05-03T20:32:16Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -87,11 +87,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -103,7 +103,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -263,7 +263,7 @@
           },
           {
             "name": "lcms2",
-            "version": "2.18"
+            "version": "2.19"
           },
           {
             "name": "lerc",
@@ -1213,7 +1213,7 @@
     "pkg": {
       "app_version": "1.5.6",
       "arch": "amd64",
-      "generated": "2026-04-22T23:29:05Z",
+      "generated": "2026-05-03T20:32:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1295,11 +1295,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -1311,7 +1311,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -1475,7 +1475,7 @@
           },
           {
             "name": "lcms2",
-            "version": "2.18"
+            "version": "2.19"
           },
           {
             "name": "lerc",
@@ -2421,7 +2421,7 @@
     "pkg-latest": {
       "app_version": "1.5.6",
       "arch": "amd64",
-      "generated": "2026-04-22T23:28:19Z",
+      "generated": "2026-05-03T20:32:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2503,11 +2503,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -2519,7 +2519,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -2595,7 +2595,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.5"
+            "version": "2.8.0"
           },
           {
             "name": "ffmpeg",
@@ -2639,7 +2639,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "graphite2",
@@ -2651,7 +2651,7 @@
           },
           {
             "name": "highway",
-            "version": "1.3.0"
+            "version": "1.4.0"
           },
           {
             "name": "hwdata",
@@ -2683,7 +2683,7 @@
           },
           {
             "name": "lcms2",
-            "version": "2.18"
+            "version": "2.19"
           },
           {
             "name": "lerc",
@@ -2691,7 +2691,7 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.13,1"
+            "version": "1.8.13_1,1"
           },
           {
             "name": "libXScrnSaver",
@@ -2775,7 +2775,7 @@
           },
           {
             "name": "libgcrypt",
-            "version": "1.12.0_1"
+            "version": "1.12.2"
           },
           {
             "name": "libglvnd",
@@ -2783,7 +2783,7 @@
           },
           {
             "name": "libgpg-error",
-            "version": "1.59"
+            "version": "1.60"
           },
           {
             "name": "libiconv",
@@ -2795,7 +2795,7 @@
           },
           {
             "name": "libimagequant",
-            "version": "4.4.1_3"
+            "version": "4.4.1_4"
           },
           {
             "name": "libjxl",
@@ -2807,7 +2807,7 @@
           },
           {
             "name": "libpciaccess",
-            "version": "0.18.1_1"
+            "version": "0.19"
           },
           {
             "name": "libplacebo",
@@ -2819,7 +2819,7 @@
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.62.0_1"
+            "version": "2.62.0_2"
           },
           {
             "name": "libtasn1",
@@ -2839,7 +2839,7 @@
           },
           {
             "name": "libunibreak",
-            "version": "6.1,1"
+            "version": "7.0,1"
           },
           {
             "name": "libunistring",
@@ -2879,7 +2879,7 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.2_1"
+            "version": "2.15.3"
           },
           {
             "name": "libxslt",
@@ -2891,7 +2891,7 @@
           },
           {
             "name": "lzo2",
-            "version": "2.10_1"
+            "version": "2.10_2"
           },
           {
             "name": "mpc",
@@ -2919,7 +2919,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.9"
+            "version": "3.4.11"
           },
           {
             "name": "openjpeg",
@@ -2927,7 +2927,7 @@
           },
           {
             "name": "openjph",
-            "version": "0.26.3"
+            "version": "0.27.0"
           },
           {
             "name": "opus",
@@ -2951,11 +2951,11 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.4"
+            "version": "2.7.5"
           },
           {
             "name": "png",
-            "version": "1.6.57"
+            "version": "1.6.58"
           },
           {
             "name": "py311-boost-libs",
@@ -2963,7 +2963,7 @@
           },
           {
             "name": "py311-lxml",
-            "version": "6.0.4"
+            "version": "6.1.0"
           },
           {
             "name": "py311-numpy1",
@@ -2975,7 +2975,7 @@
           },
           {
             "name": "py311-packaging",
-            "version": "26.0"
+            "version": "26.2"
           },
           {
             "name": "py311-pillow",
@@ -3011,7 +3011,7 @@
           },
           {
             "name": "shaderc",
-            "version": "2026.1"
+            "version": "2026.2"
           },
           {
             "name": "shared-mime-info",
@@ -3055,7 +3055,7 @@
           },
           {
             "name": "vulkan-loader",
-            "version": "1.4.336"
+            "version": "1.4.349"
           },
           {
             "name": "wayland",
@@ -3358,7 +3358,7 @@
           },
           {
             "name": "lxml",
-            "version": "6.0.4"
+            "version": "6.1.0"
           },
           {
             "name": "msgpack",
@@ -3378,7 +3378,7 @@
           },
           {
             "name": "packaging",
-            "version": "26.0"
+            "version": "26.2"
           },
           {
             "name": "pillow",
