@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-07T13:52:04Z",
+  "generated": "2026-05-08T17:47:00Z",
   "image": "bazarr",
   "tags": {
     "latest": {
       "app_version": "v1.5.6",
       "arch": "amd64",
-      "generated": "2026-05-07T13:48:50Z",
+      "generated": "2026-05-08T17:45:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -499,7 +499,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.9"
+            "version": "3.4.11"
           },
           {
             "name": "openjpeg",
@@ -1213,7 +1213,7 @@
     "pkg": {
       "app_version": "1.5.6",
       "arch": "amd64",
-      "generated": "2026-05-07T13:50:52Z",
+      "generated": "2026-05-08T17:45:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1711,7 +1711,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.9"
+            "version": "3.4.11"
           },
           {
             "name": "openjpeg",
@@ -2419,9 +2419,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "1.5.6",
+      "app_version": "1.5.6_1",
       "arch": "amd64",
-      "generated": "2026-05-07T13:49:41Z",
+      "generated": "2026-05-08T17:45:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2551,7 +2551,7 @@
           },
           {
             "name": "Imath",
-            "version": "3.2.2_3"
+            "version": "3.2.2_4"
           },
           {
             "name": "aom",
@@ -2563,7 +2563,7 @@
           },
           {
             "name": "bazarr",
-            "version": "1.5.6"
+            "version": "1.5.6_1"
           },
           {
             "name": "binutils",
@@ -2966,8 +2966,8 @@
             "version": "6.1.0"
           },
           {
-            "name": "py311-numpy1",
-            "version": "1.26.4_3"
+            "name": "py311-numpy",
+            "version": "2.4.4_2,1"
           },
           {
             "name": "py311-olefile",
@@ -3055,7 +3055,7 @@
           },
           {
             "name": "vulkan-loader",
-            "version": "1.4.349"
+            "version": "1.4.350"
           },
           {
             "name": "wayland",
@@ -3086,8 +3086,48 @@
         "java": [],
         "node": [
           {
+            "name": "@jupyterlite/app",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-consoles",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-edit",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-lab",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-notebooks",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-repl",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-tree",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/pyodide-kernel-extension",
+            "version": "0.5.2"
+          },
+          {
             "name": "MathJax-grunt-cleaner",
             "version": "0.1.0"
+          },
+          {
+            "name": "jupyterlab-jupytext",
+            "version": "1.4.5"
+          },
+          {
+            "name": "jupyterlab_pygments",
+            "version": "0.3.0"
           }
         ],
         "php": [],
@@ -3366,7 +3406,7 @@
           },
           {
             "name": "numpy",
-            "version": "1.26.4"
+            "version": "2.4.4"
           },
           {
             "name": "oauthlib",
@@ -3590,12 +3630,12 @@
         "freebsd": 164,
         "go": 0,
         "java": 0,
-        "node": 1,
+        "node": 11,
         "php": 0,
         "python": 122,
         "ruby": 0,
         "rust": 0,
-        "total": 287
+        "total": 297
       }
     }
   }
