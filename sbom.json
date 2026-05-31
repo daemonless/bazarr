@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-20T22:46:53Z",
+  "generated": "2026-05-31T09:33:12Z",
   "image": "bazarr",
   "tags": {
     "latest": {
       "app_version": "v1.5.6",
       "arch": "amd64",
-      "generated": "2026-05-20T22:44:47Z",
+      "generated": "2026-05-31T09:31:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -59,7 +59,7 @@
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-libexecinfo",
@@ -103,7 +103,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p8"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -115,7 +115,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p1"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -159,7 +159,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "cairo",
@@ -499,7 +499,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.11"
+            "version": "3.4.12"
           },
           {
             "name": "openjpeg",
@@ -1213,7 +1213,7 @@
     "pkg": {
       "app_version": "1.5.6",
       "arch": "amd64",
-      "generated": "2026-05-20T22:45:38Z",
+      "generated": "2026-05-31T09:31:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1267,7 +1267,7 @@
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-libexecinfo",
@@ -1311,7 +1311,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p8"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -1323,7 +1323,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p1"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -1371,7 +1371,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "cairo",
@@ -1711,7 +1711,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.11"
+            "version": "3.4.12"
           },
           {
             "name": "openjpeg",
@@ -2421,7 +2421,7 @@
     "pkg-latest": {
       "app_version": "1.5.6_1",
       "arch": "amd64",
-      "generated": "2026-05-20T22:45:07Z",
+      "generated": "2026-05-31T09:32:03Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2475,7 +2475,7 @@
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-libexecinfo",
@@ -2519,7 +2519,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p8"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -2531,7 +2531,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p1"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -2579,7 +2579,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "cairo",
@@ -2731,7 +2731,7 @@
           },
           {
             "name": "libass",
-            "version": "0.17.4"
+            "version": "0.17.4_1"
           },
           {
             "name": "libavif",
@@ -2800,6 +2800,10 @@
           {
             "name": "libjxl",
             "version": "0.11.2"
+          },
+          {
+            "name": "liblz4",
+            "version": "1.10.0_2,1"
           },
           {
             "name": "libogg",
@@ -2919,7 +2923,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.11"
+            "version": "3.4.12"
           },
           {
             "name": "openjpeg",
@@ -2927,7 +2931,7 @@
           },
           {
             "name": "openjph",
-            "version": "0.27.2"
+            "version": "0.27.3"
           },
           {
             "name": "opus",
@@ -2963,11 +2967,11 @@
           },
           {
             "name": "py311-lxml",
-            "version": "6.1.0"
+            "version": "6.1.1"
           },
           {
             "name": "py311-numpy",
-            "version": "2.4.4_3,1"
+            "version": "2.4.6,1"
           },
           {
             "name": "py311-olefile",
@@ -3023,7 +3027,7 @@
           },
           {
             "name": "sqlite3",
-            "version": "3.50.4_2,1"
+            "version": "3.53.1,1"
           },
           {
             "name": "srt",
@@ -3047,7 +3051,7 @@
           },
           {
             "name": "unrar",
-            "version": "7.13,6"
+            "version": "7.21,6"
           },
           {
             "name": "vmaf",
@@ -3079,7 +3083,7 @@
           },
           {
             "name": "zstd",
-            "version": "1.5.7_1"
+            "version": "1.5.7_2"
           }
         ],
         "go": [],
@@ -3398,7 +3402,7 @@
           },
           {
             "name": "lxml",
-            "version": "6.1.0"
+            "version": "6.1.1"
           },
           {
             "name": "msgpack",
@@ -3406,7 +3410,7 @@
           },
           {
             "name": "numpy",
-            "version": "2.4.4"
+            "version": "2.4.6"
           },
           {
             "name": "oauthlib",
@@ -3627,7 +3631,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 164,
+        "freebsd": 165,
         "go": 0,
         "java": 0,
         "node": 11,
@@ -3635,7 +3639,7 @@
         "python": 122,
         "ruby": 0,
         "rust": 0,
-        "total": 297
+        "total": 298
       }
     }
   }
