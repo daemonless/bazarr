@@ -10,7 +10,6 @@ Source: dbuild templates
 
 Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
 
-
 | | |
 |---|---|
 | **Port** | 6767 |
@@ -37,18 +36,18 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 ```yaml
 services:
   bazarr:
-    image: ghcr.io/daemonless/bazarr:latest
+    image: "ghcr.io/daemonless/bazarr:latest"
     container_name: bazarr
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=UTC
+      - PUID=1000  # User ID for the application process
+      - PGID=1000  # Group ID for the application process
+      - TZ=UTC  # Timezone for the container
     volumes:
       - "/path/to/containers/bazarr:/config"
       - "/path/to/movies:/movies" # optional
       - "/path/to/tv:/tv" # optional
     ports:
-      - 6767:6767
+      - "6767:6767"
     restart: unless-stopped
 ```
 
@@ -122,7 +121,7 @@ podman run -d --name bazarr \
 - name: Deploy bazarr
   containers.podman.podman_container:
     name: bazarr
-    image: ghcr.io/daemonless/bazarr:latest
+    image: "ghcr.io/daemonless/bazarr:latest"
     state: started
     restart_policy: always
     env:
