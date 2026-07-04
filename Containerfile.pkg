@@ -27,7 +27,7 @@ LABEL org.opencontainers.image.title="Bazarr" \
 
 # Install Bazarr from FreeBSD packages
 RUN pkg update && \
-    pkg install -y ${PKG_NAME} && \
+    pkg install -y ${PKG_NAME} python3 && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
 

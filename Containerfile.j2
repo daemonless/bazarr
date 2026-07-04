@@ -1,8 +1,8 @@
-ARG BASE_VERSION=15.1
+ARG BASE_VERSION=15.1-latest
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
-ARG PACKAGES="python311 py311-sqlite3 py311-pillow py311-numpy py311-lxml py311-webrtcvad py311-setuptools ffmpeg unrar unzip"
+ARG PACKAGES="python3 py312-sqlite3 py312-pillow py312-numpy py312-lxml py312-webrtcvad py312-setuptools ffmpeg unrar unzip"
 ARG UPSTREAM_URL="https://api.github.com/repos/morpheus65535/bazarr/releases/latest"
 ARG UPSTREAM_JQ=".tag_name"
 {%- if ports %}

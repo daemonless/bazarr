@@ -18,7 +18,6 @@ Bazarr is a companion application to Sonarr and Radarr. It manages and downloads
 | **Website** | [https://www.bazarr.media/](https://www.bazarr.media/) |
 
 ## Version Tags
-
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
@@ -26,7 +25,6 @@ Bazarr is a companion application to Sonarr and Radarr. It manages and downloads
 | `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 
 ## Prerequisites
-
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
@@ -52,10 +50,11 @@ services:
 ```
 
 ### AppJail Director
-
 **.env**:
 
 ```
+# .env
+
 DIRECTOR_PROJECT=bazarr
 PUID=1000
 PGID=1000
@@ -65,6 +64,8 @@ TZ=UTC
 **appjail-director.yml**:
 
 ```yaml
+# appjail-director.yml
+
 options:
   - virtualnet: ':<random> default'
   - nat:
@@ -73,7 +74,7 @@ services:
     name: bazarr
     options:
       - container: 'boot args:--pull'
-      - expose="6767:6767 proto:tcp" \
+      - expose: '6767:6767 proto:tcp' \
     oci:
       user: root
       environment:
@@ -96,6 +97,8 @@ volumes:
 **Makejail**:
 
 ```
+# Makejail
+
 ARG tag=latest
 
 OPTION overwrite=force
