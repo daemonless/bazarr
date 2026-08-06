@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-01T14:26:34Z",
+  "generated": "2026-08-06T07:39:49Z",
   "image": "bazarr",
   "tags": {
     "latest": {
       "app_version": "v1.6.0",
       "arch": "amd64",
-      "generated": "2026-08-01T14:19:38Z",
+      "generated": "2026-08-06T07:36:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -759,7 +759,7 @@
               "BSD2CLAUSE"
             ],
             "name": "libudev-devd",
-            "version": "0.6.0"
+            "version": "0.7.0"
           },
           {
             "licenses": [
@@ -895,7 +895,7 @@
               "LGPL21"
             ],
             "name": "mpg123",
-            "version": "1.33.6"
+            "version": "1.33.7"
           },
           {
             "licenses": [
@@ -1177,7 +1177,7 @@
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.356"
+            "version": "1.4.357"
           },
           {
             "licenses": [
@@ -1905,7 +1905,7 @@
     "pkg": {
       "app_version": "1.5.6_1",
       "arch": "amd64",
-      "generated": "2026-08-01T14:21:46Z",
+      "generated": "2026-08-06T07:36:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3806,9 +3806,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "1.5.6_1",
+      "app_version": "1.6.0",
       "arch": "amd64",
-      "generated": "2026-08-01T14:19:07Z",
+      "generated": "2026-08-06T07:31:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4076,7 +4076,7 @@
               "GPLv3"
             ],
             "name": "bazarr",
-            "version": "1.5.6_1"
+            "version": "1.6.0"
           },
           {
             "licenses": [
@@ -4569,7 +4569,7 @@
               "BSD2CLAUSE"
             ],
             "name": "libudev-devd",
-            "version": "0.6.0"
+            "version": "0.7.0"
           },
           {
             "licenses": [
@@ -4705,7 +4705,7 @@
               "LGPL21"
             ],
             "name": "mpg123",
-            "version": "1.33.6"
+            "version": "1.33.7"
           },
           {
             "licenses": [
@@ -4980,7 +4980,7 @@
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.356"
+            "version": "1.4.357"
           },
           {
             "licenses": [
@@ -5090,17 +5090,12 @@
           {
             "name": "APScheduler",
             "purl": "",
-            "version": "3.10.4"
+            "version": "3.11.2"
           },
           {
             "name": "Flask",
             "purl": "",
-            "version": "3.0.3"
-          },
-          {
-            "name": "Flask-Cors",
-            "purl": "",
-            "version": "5.0.0"
+            "version": "3.1.3"
           },
           {
             "name": "Flask-Migrate",
@@ -5115,12 +5110,12 @@
           {
             "name": "Flask-SocketIO",
             "purl": "",
-            "version": "5.5.1"
+            "version": "5.6.1"
           },
           {
             "name": "Jinja2",
             "purl": "",
-            "version": "3.1.5"
+            "version": "3.1.6"
           },
           {
             "name": "Js2Py",
@@ -5130,22 +5125,22 @@
           {
             "name": "Mako",
             "purl": "",
-            "version": "1.3.8"
+            "version": "1.3.12"
           },
           {
             "name": "Markdown",
             "purl": "",
-            "version": "3.7"
+            "version": "3.10.2"
           },
           {
             "name": "MarkupSafe",
             "purl": "",
-            "version": "2.1.5"
+            "version": "3.0.3"
           },
           {
             "name": "PlexAPI",
             "purl": "",
-            "version": "4.16.1"
+            "version": "4.18.0"
           },
           {
             "name": "PySocks",
@@ -5155,37 +5150,37 @@
           {
             "name": "PyYAML",
             "purl": "",
-            "version": "6.0.2"
+            "version": "6.0.3"
           },
           {
             "name": "Pygments",
             "purl": "",
-            "version": "2.19.1"
+            "version": "2.20.0"
           },
           {
             "name": "SQLAlchemy",
             "purl": "",
-            "version": "2.0.37"
+            "version": "2.0.51"
           },
           {
             "name": "Unidecode",
             "purl": "",
-            "version": "1.3.8"
+            "version": "1.4.0"
           },
           {
             "name": "Werkzeug",
             "purl": "",
-            "version": "3.0.6"
+            "version": "3.1.8"
           },
           {
             "name": "alembic",
             "purl": "",
-            "version": "1.14.0"
+            "version": "1.18.4"
           },
           {
             "name": "aniso8601",
             "purl": "",
-            "version": "10.0.0"
+            "version": "10.0.1"
           },
           {
             "name": "appdirs",
@@ -5195,12 +5190,12 @@
           {
             "name": "apprise",
             "purl": "",
-            "version": "1.9.2"
+            "version": "1.11.0"
           },
           {
             "name": "attrs",
             "purl": "",
-            "version": "24.3.0"
+            "version": "26.1.0"
           },
           {
             "name": "auditok",
@@ -5218,14 +5213,9 @@
             "version": "2.0.0"
           },
           {
-            "name": "backports.zoneinfo",
-            "purl": "",
-            "version": "0.2.1"
-          },
-          {
             "name": "beautifulsoup4",
             "purl": "",
-            "version": "4.12.3"
+            "version": "4.15.0"
           },
           {
             "name": "bidict",
@@ -5235,27 +5225,27 @@
           {
             "name": "blinker",
             "purl": "",
-            "version": "1.8.2"
+            "version": "1.9.0"
           },
           {
             "name": "certifi",
             "purl": "",
-            "version": "2024.12.14"
+            "version": "2026.6.17"
           },
           {
             "name": "chardet",
             "purl": "",
-            "version": "5.2.0"
+            "version": "7.4.3"
           },
           {
             "name": "charset-normalizer",
             "purl": "",
-            "version": "3.4.1"
+            "version": "3.4.7"
           },
           {
             "name": "click",
             "purl": "",
-            "version": "8.1.8"
+            "version": "8.4.1"
           },
           {
             "name": "cloudscraper",
@@ -5270,12 +5260,12 @@
           {
             "name": "commonmark",
             "purl": "",
-            "version": "0.9.1"
+            "version": "0.9.2"
           },
           {
             "name": "decorator",
             "purl": "",
-            "version": "5.1.1"
+            "version": "5.3.1"
           },
           {
             "name": "deep-translator",
@@ -5285,17 +5275,17 @@
           {
             "name": "dnspython",
             "purl": "",
-            "version": "2.6.1"
+            "version": "2.8.0"
           },
           {
             "name": "dogpile.cache",
             "purl": "",
-            "version": "1.3.3"
+            "version": "1.5.0"
           },
           {
             "name": "dynaconf",
             "purl": "",
-            "version": "3.2.6"
+            "version": "3.2.13"
           },
           {
             "name": "emoji",
@@ -5315,7 +5305,7 @@
           {
             "name": "fcache",
             "purl": "",
-            "version": "0.5.2"
+            "version": "0.6.0"
           },
           {
             "name": "fese",
@@ -5330,12 +5320,17 @@
           {
             "name": "ffsubsync",
             "purl": "",
-            "version": "0.4.27"
+            "version": "0.5.0"
           },
           {
             "name": "filetype",
             "purl": "",
             "version": "1.2.0"
+          },
+          {
+            "name": "flask-cors",
+            "purl": "",
+            "version": "6.0.5"
           },
           {
             "name": "flask-restx",
@@ -5345,7 +5340,7 @@
           {
             "name": "ftfy",
             "purl": "",
-            "version": "6.2.3"
+            "version": "6.3.1"
           },
           {
             "name": "future",
@@ -5358,9 +5353,9 @@
             "version": "2.0.4"
           },
           {
-            "name": "guess-language-spirit",
+            "name": "guess_language-spirit",
             "purl": "",
-            "version": "0.5.3"
+            "version": "0.5.4"
           },
           {
             "name": "guessit",
@@ -5370,7 +5365,7 @@
           {
             "name": "h11",
             "purl": "",
-            "version": "0.14.0"
+            "version": "0.16.0"
           },
           {
             "name": "html5lib",
@@ -5380,7 +5375,7 @@
           {
             "name": "idna",
             "purl": "",
-            "version": "3.10"
+            "version": "3.18"
           },
           {
             "name": "importlib_metadata",
@@ -5390,12 +5385,12 @@
           {
             "name": "importlib_resources",
             "purl": "",
-            "version": "6.4.5"
+            "version": "7.1.0"
           },
           {
             "name": "inflect",
             "purl": "",
-            "version": "7.4.0"
+            "version": "7.5.0"
           },
           {
             "name": "itsdangerous",
@@ -5403,7 +5398,7 @@
             "version": "2.2.0"
           },
           {
-            "name": "json-tricks",
+            "name": "json_tricks",
             "purl": "",
             "version": "3.17.3"
           },
@@ -5415,7 +5410,7 @@
           {
             "name": "knowit",
             "purl": "",
-            "version": "0.5.3"
+            "version": "0.5.11"
           },
           {
             "name": "lxml",
@@ -5425,7 +5420,7 @@
           {
             "name": "msgpack",
             "purl": "",
-            "version": "1.1.0"
+            "version": "1.2.1"
           },
           {
             "name": "numpy",
@@ -5435,7 +5430,7 @@
           {
             "name": "oauthlib",
             "purl": "",
-            "version": "3.2.2"
+            "version": "3.3.1"
           },
           {
             "name": "olefile",
@@ -5455,12 +5450,12 @@
           {
             "name": "platformdirs",
             "purl": "",
-            "version": "4.3.6"
+            "version": "4.10.0"
           },
           {
             "name": "pycountry",
             "purl": "",
-            "version": "24.6.1"
+            "version": "26.2.16"
           },
           {
             "name": "pydantic",
@@ -5475,12 +5470,12 @@
           {
             "name": "pymediainfo",
             "purl": "",
-            "version": "6.1.0"
+            "version": "7.0.1"
           },
           {
             "name": "pyparsing",
             "purl": "",
-            "version": "3.1.4"
+            "version": "3.3.2"
           },
           {
             "name": "pyrsistent",
@@ -5495,7 +5490,7 @@
           {
             "name": "pysubs2",
             "purl": "",
-            "version": "1.7.3"
+            "version": "1.8.1"
           },
           {
             "name": "python-anticaptcha",
@@ -5505,27 +5500,22 @@
           {
             "name": "python-dateutil",
             "purl": "",
-            "version": "2.9.0"
+            "version": "2.9.0.post0"
           },
           {
             "name": "python-engineio",
             "purl": "",
-            "version": "4.11.2"
+            "version": "4.13.2"
           },
           {
             "name": "python-socketio",
             "purl": "",
-            "version": "5.12.1"
+            "version": "5.16.3"
           },
           {
             "name": "pytz",
             "purl": "",
-            "version": "2024.2"
-          },
-          {
-            "name": "pytz_deprecation_shim",
-            "purl": "",
-            "version": "0.1.0.post0"
+            "version": "2026.2"
           },
           {
             "name": "rarfile",
@@ -5545,7 +5535,7 @@
           {
             "name": "requests",
             "purl": "",
-            "version": "2.32.3"
+            "version": "2.34.2"
           },
           {
             "name": "requests-oauthlib",
@@ -5565,22 +5555,17 @@
           {
             "name": "rich",
             "purl": "",
-            "version": "13.9.4"
+            "version": "15.0.0"
           },
           {
             "name": "semver",
             "purl": "",
-            "version": "3.0.2"
+            "version": "3.0.4"
           },
           {
             "name": "setuptools",
             "purl": "",
             "version": "63.1.0"
-          },
-          {
-            "name": "signalrcore",
-            "purl": "",
-            "version": "0.9.5"
           },
           {
             "name": "simple-websocket",
@@ -5595,7 +5580,7 @@
           {
             "name": "soupsieve",
             "purl": "",
-            "version": "2.3.2.post1"
+            "version": "2.8.4"
           },
           {
             "name": "sqlite3",
@@ -5610,7 +5595,7 @@
           {
             "name": "stevedore",
             "purl": "",
-            "version": "5.3.0"
+            "version": "5.8.0"
           },
           {
             "name": "textdistance",
@@ -5625,47 +5610,52 @@
           {
             "name": "tld",
             "purl": "",
-            "version": "0.13"
+            "version": "0.13.2"
+          },
+          {
+            "name": "tomli",
+            "purl": "",
+            "version": "2.4.1"
           },
           {
             "name": "tqdm",
             "purl": "",
-            "version": "4.67.1"
+            "version": "4.68.3"
           },
           {
             "name": "trakit",
             "purl": "",
-            "version": "0.2.2"
+            "version": "0.2.5"
           },
           {
             "name": "typing_extensions",
             "purl": "",
-            "version": "4.12.2"
+            "version": "4.15.0"
           },
           {
             "name": "tzdata",
             "purl": "",
-            "version": "2024.2"
+            "version": "2026.2"
           },
           {
             "name": "tzlocal",
             "purl": "",
-            "version": "5.2"
+            "version": "5.4.3"
           },
           {
             "name": "urllib3",
             "purl": "",
-            "version": "2.2.3"
+            "version": "2.7.0"
           },
           {
             "name": "waitress",
             "purl": "",
-            "version": "3.0.0"
+            "version": "3.0.2"
           },
           {
             "name": "wcwidth",
             "purl": "",
-            "version": "0.2.13"
+            "version": "0.8.1"
           },
           {
             "name": "webencodings",
@@ -5680,7 +5670,7 @@
           {
             "name": "websocket-client",
             "purl": "",
-            "version": "1.8.0"
+            "version": "1.9.0"
           },
           {
             "name": "whichcraft",
@@ -5690,12 +5680,12 @@
           {
             "name": "wsproto",
             "purl": "",
-            "version": "1.2.0"
+            "version": "1.3.2"
           },
           {
             "name": "zipp",
             "purl": "",
-            "version": "3.20.2"
+            "version": "4.1.0"
           }
         ],
         "ruby": [],
@@ -5709,10 +5699,10 @@
         "java": 0,
         "node": 11,
         "php": 0,
-        "python": 122,
+        "python": 120,
         "ruby": 0,
         "rust": 0,
-        "total": 303
+        "total": 301
       }
     }
   }
