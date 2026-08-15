@@ -20,9 +20,9 @@ Bazarr is a companion application to Sonarr and Radarr. It manages and downloads
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
+| `latest` | **Upstream Binary**. Built from official release. | Most users — recommended. |
 | `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
-| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
@@ -74,7 +74,7 @@ services:
     name: bazarr
     options:
       - container: 'boot args:--pull'
-      - expose: '6767:6767 proto:tcp' \
+      - expose: '6767:6767 proto:tcp'
     oci:
       user: root
       environment:
