@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-30T17:19:50Z",
+  "generated": "2026-09-12T08:49:33Z",
   "image": "bazarr",
   "tags": {
     "latest": {
       "app_version": "v1.6.0",
       "arch": "amd64",
-      "generated": "2026-08-30T17:18:12Z",
+      "generated": "2026-09-12T08:47:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -310,7 +310,7 @@
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -324,7 +324,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.3"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -332,7 +332,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "8.1.2_3,1"
+            "version": "9.0.1,1"
           },
           {
             "licenses": [
@@ -437,7 +437,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.410,1"
+            "version": "0.411,1"
           },
           {
             "licenses": [
@@ -495,7 +495,7 @@
               "APACHE20"
             ],
             "name": "lerc",
-            "version": "4.1.1"
+            "version": "4.2.0"
           },
           {
             "licenses": [
@@ -600,7 +600,7 @@
               "MIT"
             ],
             "name": "libdeflate",
-            "version": "1.25"
+            "version": "1.26"
           },
           {
             "licenses": [
@@ -650,7 +650,7 @@
               "LGPL21+"
             ],
             "name": "libgcrypt",
-            "version": "1.12.2"
+            "version": "1.12.3_2"
           },
           {
             "licenses": [
@@ -687,7 +687,7 @@
               "GPLv3+"
             ],
             "name": "libimagequant",
-            "version": "4.4.1_6"
+            "version": "4.4.1_7"
           },
           {
             "licenses": [
@@ -737,7 +737,7 @@
               "LGPL20"
             ],
             "name": "librsvg2-rust",
-            "version": "2.62.3_1"
+            "version": "2.62.3_2"
           },
           {
             "licenses": [
@@ -846,7 +846,7 @@
               "MIT"
             ],
             "name": "libxml2",
-            "version": "2.15.3"
+            "version": "2.15.4"
           },
           {
             "licenses": [
@@ -924,7 +924,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.15"
+            "version": "3.4.15_1"
           },
           {
             "licenses": [
@@ -938,7 +938,7 @@
               "BSD2CLAUSE"
             ],
             "name": "openjph",
-            "version": "0.30.1"
+            "version": "0.31.0"
           },
           {
             "licenses": [
@@ -966,7 +966,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -1001,7 +1001,7 @@
               "BSD3CLAUSE"
             ],
             "name": "py312-lxml",
-            "version": "6.1.1"
+            "version": "6.1.3"
           },
           {
             "licenses": [
@@ -1024,14 +1024,14 @@
               "APACHE20"
             ],
             "name": "py312-packaging",
-            "version": "26.2"
+            "version": "26.3"
           },
           {
             "licenses": [
               "MIT-CMU"
             ],
             "name": "py312-pillow",
-            "version": "11.3.0_2"
+            "version": "12.3.0"
           },
           {
             "licenses": [
@@ -1612,7 +1612,7 @@
           {
             "name": "lxml",
             "purl": "",
-            "version": "6.1.1"
+            "version": "6.1.3"
           },
           {
             "name": "msgpack",
@@ -1637,12 +1637,12 @@
           {
             "name": "packaging",
             "purl": "",
-            "version": "26.2"
+            "version": "26.3"
           },
           {
             "name": "pillow",
             "purl": "",
-            "version": "11.3.0"
+            "version": "12.3.0"
           },
           {
             "name": "platformdirs",
@@ -1905,7 +1905,7 @@
     "pkg": {
       "app_version": "1.5.6_1",
       "arch": "amd64",
-      "generated": "2026-08-30T17:18:00Z",
+      "generated": "2026-09-12T08:45:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2217,7 +2217,7 @@
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -3808,7 +3808,7 @@
     "pkg-latest": {
       "app_version": "1.6.0",
       "arch": "amd64",
-      "generated": "2026-08-30T17:17:44Z",
+      "generated": "2026-09-12T08:46:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4120,7 +4120,7 @@
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -4134,7 +4134,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.3"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -4142,7 +4142,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "8.1.2_3,1"
+            "version": "9.0.1,1"
           },
           {
             "licenses": [
@@ -4247,7 +4247,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.410,1"
+            "version": "0.411,1"
           },
           {
             "licenses": [
@@ -4305,7 +4305,7 @@
               "APACHE20"
             ],
             "name": "lerc",
-            "version": "4.1.1"
+            "version": "4.2.0"
           },
           {
             "licenses": [
@@ -4410,7 +4410,7 @@
               "MIT"
             ],
             "name": "libdeflate",
-            "version": "1.25"
+            "version": "1.26"
           },
           {
             "licenses": [
@@ -4460,7 +4460,7 @@
               "LGPL21+"
             ],
             "name": "libgcrypt",
-            "version": "1.12.2"
+            "version": "1.12.3_2"
           },
           {
             "licenses": [
@@ -4497,7 +4497,7 @@
               "GPLv3+"
             ],
             "name": "libimagequant",
-            "version": "4.4.1_6"
+            "version": "4.4.1_7"
           },
           {
             "licenses": [
@@ -4547,7 +4547,7 @@
               "LGPL20"
             ],
             "name": "librsvg2-rust",
-            "version": "2.62.3_1"
+            "version": "2.62.3_2"
           },
           {
             "licenses": [
@@ -4656,7 +4656,7 @@
               "MIT"
             ],
             "name": "libxml2",
-            "version": "2.15.3"
+            "version": "2.15.4"
           },
           {
             "licenses": [
@@ -4734,7 +4734,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.15"
+            "version": "3.4.15_1"
           },
           {
             "licenses": [
@@ -4748,7 +4748,7 @@
               "BSD2CLAUSE"
             ],
             "name": "openjph",
-            "version": "0.30.1"
+            "version": "0.31.0"
           },
           {
             "licenses": [
@@ -4776,7 +4776,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -4811,7 +4811,7 @@
               "BSD3CLAUSE"
             ],
             "name": "py312-lxml",
-            "version": "6.1.1"
+            "version": "6.1.3"
           },
           {
             "licenses": [
@@ -4834,14 +4834,14 @@
               "APACHE20"
             ],
             "name": "py312-packaging",
-            "version": "26.2"
+            "version": "26.3"
           },
           {
             "licenses": [
               "MIT-CMU"
             ],
             "name": "py312-pillow",
-            "version": "11.3.0_2"
+            "version": "12.3.0"
           },
           {
             "licenses": [
@@ -5415,7 +5415,7 @@
           {
             "name": "lxml",
             "purl": "",
-            "version": "6.1.1"
+            "version": "6.1.3"
           },
           {
             "name": "msgpack",
@@ -5440,12 +5440,12 @@
           {
             "name": "packaging",
             "purl": "",
-            "version": "26.2"
+            "version": "26.3"
           },
           {
             "name": "pillow",
             "purl": "",
-            "version": "11.3.0"
+            "version": "12.3.0"
           },
           {
             "name": "platformdirs",
