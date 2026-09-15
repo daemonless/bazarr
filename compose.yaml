@@ -32,7 +32,7 @@ services:
     image: ghcr.io/daemonless/bazarr:latest
     container_name: bazarr
     restart: unless-stopped
-    
+
     environment:
       - PUID=1000
       - PGID=1000
