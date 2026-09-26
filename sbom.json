@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-21T22:42:21Z",
+  "generated": "2026-09-26T07:41:03Z",
   "image": "bazarr",
   "tags": {
     "latest": {
-      "app_version": "v1.6.1",
+      "app_version": "v1.6.2",
       "arch": "amd64",
-      "generated": "2026-09-21T22:34:21Z",
+      "generated": "2026-09-26T07:38:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -273,7 +273,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.0"
+            "version": "3.15.1"
           },
           {
             "licenses": [
@@ -966,7 +966,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.5"
+            "version": "0.26.5_1"
           },
           {
             "licenses": [
@@ -1919,7 +1919,7 @@
     "pkg": {
       "app_version": "1.5.6_1",
       "arch": "amd64",
-      "generated": "2026-09-21T22:38:25Z",
+      "generated": "2026-09-26T07:39:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3836,7 +3836,7 @@
     "pkg-latest": {
       "app_version": "1.6.0",
       "arch": "amd64",
-      "generated": "2026-09-21T22:39:35Z",
+      "generated": "2026-09-26T07:39:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4104,7 +4104,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.0"
+            "version": "3.15.1"
           },
           {
             "licenses": [
@@ -4804,7 +4804,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.5"
+            "version": "0.26.5_1"
           },
           {
             "licenses": [
