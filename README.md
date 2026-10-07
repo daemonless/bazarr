@@ -42,7 +42,7 @@ services:
       - PGID=1000  # Group ID for the application process
       - TZ=UTC  # Timezone for the container
     volumes:
-      - "/path/to/containers/bazarr:/config"
+      - "/containers/bazarr:/config"
       - "/path/to/movies:/movies" # optional
       - "/path/to/tv:/tv" # optional
     ports:
@@ -91,7 +91,7 @@ services:
       - tv: /tv
 volumes:
   bazarr:
-    device: '/path/to/containers/bazarr'
+    device: '/containers/bazarr'
   movies:
     device: 'movies'
   tv:
@@ -118,49 +118,6 @@ Save the files above, then run `appjail-director up`.
 >
 > To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
 
-### Podman CLI
-
-```bash
-podman run -d --name bazarr \
-  -p 6767:6767 \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -v /path/to/containers/bazarr:/config \
-  -v /path/to/movies:/movies # optional \
-  -v /path/to/tv:/tv # optional \
-  ghcr.io/daemonless/bazarr:latest
-```
-
-Save as `run.sh`, then run `sh run.sh`.
-
-### AppJail
-
-
-```bash
-appjail oci run -Pd \
-  -o overwrite=force \
-  -o container="args:--pull" \
-  -o virtualnet=":<random> default" \
-  -o nat \
-  -o expose="6767:6767 proto:tcp" \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -o fstab="/path/to/containers/bazarr /config <pseudofs>" \
-  -o fstab="/path/to/movies /movies <pseudofs>" \ # optional
-  -o fstab="/path/to/tv /tv <pseudofs>" \ # optional
-  ghcr.io/daemonless/bazarr:latest bazarr
-```
-
-Save the files above, then run `sh run.sh`.
-
-
-> [!WARNING]
-> Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the jail's IPv4 address or hostname assigned by the virtual network.
->
-> To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
-
 ### Bastille
 
 > [!WARNING]
@@ -178,46 +135,12 @@ services:
       - PGID=1000
       - TZ=UTC
     volumes:
-      - "/path/to/containers/bazarr:/config"
+      - "/containers/bazarr:/config"
       - "/path/to/movies:/movies"
       - "/path/to/tv:/tv"
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
-
-```bash
-bastille create -O \
-  --env PUID=1000 \
-  --env PGID=1000 \
-  --env TZ=UTC \
-  --volume /path/to/containers/bazarr /config \
-  --volume /path/to/movies /movies \
-  --volume /path/to/tv /tv \
-  bazarr ghcr.io/daemonless/bazarr:latest inherit
-```
-
-### Ansible
-
-```yaml
-- name: Deploy bazarr
-  containers.podman.podman_container:
-    name: bazarr
-    image: "ghcr.io/daemonless/bazarr:latest"
-    state: started
-    restart_policy: always
-    env:
-      PUID: "1000"
-      PGID: "1000"
-      TZ: "UTC"
-    ports:
-      - "6767:6767"
-    volumes:
-      - "/path/to/containers/bazarr:/config"
-      - "/path/to/movies:/movies" # optional
-      - "/path/to/tv:/tv" # optional
-```
-
-Save as `bazarr-deploy.yaml`, then run `ansible-playbook bazarr-deploy.yaml`.
+Save as `bastille-compose.yml`, then run `bastille up`.
 
 Access at: `http://localhost:6767`
 
