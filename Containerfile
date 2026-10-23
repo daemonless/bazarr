@@ -5,7 +5,7 @@
 # --------------------------------------------------------------------------
 
 ARG BASE_VERSION=15.1-latest
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="python3 py312-sqlite3 py312-pillow py312-numpy py312-lxml py312-webrtcvad py312-setuptools ffmpeg unrar unzip"
@@ -50,9 +50,13 @@ RUN BAZARR_VERSION=$(fetch -qo - "${UPSTREAM_URL}" | jq -r "${UPSTREAM_JQ}") && 
 
 # Copy root filesystem
 COPY root/ /
+RUN rm /daemonless/libexec/bazarr.pkg && \
+    chmod +x /daemonless/libexec/bazarr /daemonless/init.d/*
+
+CMD ["/daemonless/libexec/bazarr"]
 
 # Set permissions
-RUN chmod +x /etc/services.d/bazarr/run /healthz /etc/cont-init.d/* 2>/dev/null || true
+RUN chmod +x /healthz
 
 # --- Expose (Injected by Generator) ---
 EXPOSE 6767

@@ -1,0 +1,7 @@
+#!/bin/sh
+# Start bazarr; /init has already dropped to the run user.
+
+export HOME=/config
+
+cd /app
+exec python3 bazarr.py --no-update --config /config

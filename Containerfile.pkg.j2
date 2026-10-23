@@ -1,5 +1,5 @@
 ARG BASE_VERSION=15.1
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PKG_NAME=bazarr
@@ -36,12 +36,15 @@ RUN mkdir -p /app && \
 
 # Copy root filesystem
 COPY root/ /
+RUN chmod +x /daemonless/libexec/bazarr /daemonless/init.d/* /daemonless/libexec/bazarr.pkg
 
-# Use pkg-specific run script
-COPY root/etc/services.d/bazarr/run.pkg /etc/services.d/bazarr/run
+CMD ["/daemonless/libexec/bazarr"]
+
+# The pkg layout's launcher
+RUN mv /daemonless/libexec/bazarr.pkg /daemonless/libexec/bazarr
 
 # Set permissions
-RUN chmod +x /etc/services.d/bazarr/run /healthz /etc/cont-init.d/* 2>/dev/null || true
+RUN chmod +x /healthz
 
 # --- Expose (Injected by Generator) ---
 {%- if ports %}
